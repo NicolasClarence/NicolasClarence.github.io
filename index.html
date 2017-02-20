@@ -1,383 +1,389 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Document</title>
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/jquery-1.7.2.js"></script>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=0"/>
+    <link rel="shortcut icon" href="star1.ico">
+    <title>( ๑´•ω•) "(ㆆᴗㆆ)</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery1.8.3.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-<!--one page-->
-<div class="onepage">
-	<div class="header">
-		<img src="img/head.png " alt="" class="logo">
-		<b class="name">Clarence</b>
-		<div class="goPro_o"><a href="#" class="goPro">Go Pro</a></div>
-		<div class="inp_none">
-			<input type="text" class="dis_none">
-			<a href="javascript:;" class="big_jsn">
-				<img src="img/big_none.png" alt="" class="img_big">
-			</a>
-		</div>
-	</div>
-	<div class="square">
-		<div class="con">
-			<div class="con_in">
-				<h1 class="title_con"><!-- Welcome to Clarence's blog -->Bite-size video tutorials for badass web developers</h1>
-				<h3 class="title_con_Sec">Understanding his growth history</h3>
-			</div>
-			<div class="red_box_prc">
-				<a href="javascript:;" class="afor_red_box_square">PICK A COURSE TO WATCH</a>
-			</div>
-			<div class="learn_more">
-				<a href="javascript:;" class="learn_more_in">
-					<span>Learn More</span>
-					<img src="img/down.png" alt="" class="up_move">
-				</a>
-			</div>
-		</div>
-	</div>
-	<div class="horn">
-		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 23.2" style="enable-background:new 0 0 300 23.2;" xml:space="preserve">
-        <style type="text/css">
-          .st0{fill:#1b1920;}
-        </style>
-        <polygon class="st0" points="0,0 300,0 150,23.2 "></polygon>
-      </svg>
-	</div>
-<script>
-/*搜索框*/
-$(function(){
-	$('.header .inp_none .big_jsn').toggle(function(){
-		$('.dis_none').css({"width":200,"opacity":1,"transform":"translateX(0)"});
-	},function(){
-		$('.dis_none').css({"width":0,"opacity":0,"transform":"translateX(180px)"});
-	});
-	$('.up_move').click(function(){
-		var t=$(window).scrollTop();
-		var h=$(window).height();
-		h*=0.8;
-    	$('body,html').animate({'scrollTop':t+h},500);
-	});
-});
-</script>
-	<div class="titles">
-		<h2 class="titles_in_word">The insider’s guide to cutting-edge front-end tools and frameworks</h2>
-		<div class="show">
-			<div class="show_in">
-				<a href="javascript:;" class="tab_left"><</a>
-				<div class="tab_first">
-					<a href="javascript:;">
-						<img src="img/1.png" alt="未显示">
-						<span>React</span>
-					</a>
-				</div>
-				<div class="tab_second">
-					<a href="javascript:;">
-						<img src="img/2.png" alt="未显示">
-						<span>JavaScript</span>
-					</a>
-				</div>
-				<div class="tab_third">
-					<a href="javascript:;">
-						<img src="img/3.png" alt="未显示">
-						<span>Angular</span>
-					</a>
-				</div>
-				<div class="tab_fourth">
-					<a href="javascript:;">
-						<img src="img/4.png" alt="未显示">
-						<span>RxJs</span>
-					</a>
-				</div>
-				<div class="tab_fiveth">
-					<a href="javascript:;">
-						<img src="img/5.png" alt="未显示">
-						<span>NodeJs</span>
-					</a>
-				</div>
-				<div class="tab_sixth">
-					<a href="javascript:;">
-						<img src="img/6.png" alt="未显示">
-						<span>Elm</span>
-					</a>
-				</div>
-				<div class="tab_seventh">
-					<a href="javascript:;">
-						<img src="img/7.png" alt="未显示">
-						<span>D3</span>
-					</a>
-				</div>
-				<a href="javascript:;" class="tab_right">></a>
-			</div>
-		</div>
-		<a href="javascript:;" class="lessons">Explore the Library of Lessons</a>
-	</div>
-	<div class="video">
-		<div class="video_in">
-			<div class="video_in_left">
-				<div class="video_in_box"></div>
-				<h3>Huge selection of front-end developer screencasts!</h3>
-				<div class="video_lesson">1350 lessons - 65 specialized courses</div>
-				<ul class="list">
-					<li>
-						<img src="img/logo1.png" alt="">
-						<span>Watch top coders problem-solve in real time</span>
-					</li>
-					<li class="video_in_top">
-						<img src="img/logo2.png" alt="">
-						<span>Increase your knowledge in bite-sized chunks. Lessons are concise, with most under 10 minutes long.</span>
-					</li>
-					<li class="video_in_top">
-						<img src="img/logo3.png" alt="">
-						<span>Gain access to all the code and transcripts</span>
-					</li>
-				</ul>
-			</div>
-			<div class="video_in_right">
-				<img src="img/tole.gif" alt="">
-			</div>
-		</div>
-	</div>
-	<div class="course">
-		<div class="course_in">
-			<div class="course_in_first">
-				<div class="cfirst_con">
-					<div class="cfirst_con_left">
-						<a href="javascript:;">
-							<img src="img/con1.png" alt="">
-						</a>
-					</div>
-					<div class="cfirst_con_right">
-						<h3><a href="javascript:;">Get Started with Angular 2 </a></h3>
-						<div class="line"></div>
-						<div class="cfc_up">
-							<div class="cfc_up_in">
-								<h4>with <span class="fsp">John  Lindquist</span></h4>
-								<h5>13&nbsp<span class="ssp"> lessons in 26 minutes</span></h5>
-							</div>
-							<a href="javascript:;">
-								<img src="img/play.png" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="course_second">
-				<div>
-					<h2>Most popular courses</h2>
-					<a href="javascript:;">click here to find a course to watch</a>
-				</div>
-			</div>
-			<div class="course_in_first">
-				<div class="cfirst_con">
-					<div class="cfirst_con_left">
-						<a href="javascript:;">
-							<img src="img/con2.png" alt="">
-						</a>
-					</div>
-					<div class="cfirst_con_right">
-						<h3><a href="javascript:;">Getting Started with Redux</a></h3>
-						<div class="line"></div>
-						<div class="cfc_up">
-							<div class="cfc_up_in">
-								<h4>with <span class="fsp">Dan Abramov</span></h4>
-								<h5>13&nbsp<span class="ssp"> lessons in 26 minutes</span></h5>
-							</div>
-							<a href="javascript:;">
-								<img src="img/play.png" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="course_in_first">
-				<div class="cfirst_con">
-					<div class="cfirst_con_left">
-						<a href="javascript:;">
-							<img src="img/con3.png" alt="">
-						</a>
-					</div>
-					<div class="cfirst_con_right">
-						<h3><a href="javascript:;">Get Started with Angular 2 </a></h3>
-						<div class="line"></div>
-						<div class="cfc_up">
-							<div class="cfc_up_in">
-								<h4>with <span class="fsp">John  Lindquist</span></h4>
-								<h5>13&nbsp<span class="ssp"> lessons in 26 minutes</span></h5>
-							</div>
-							<a href="javascript:;">
-								<img src="img/play.png" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="join">
-		<div class="join_in">
-			<div class="join_inner">
-				<img src="img/join1.png" alt="">
-			</div>
-			<h2>Join the Programming Elite</h2>
-			<ul class="join_ul">
-				<li class="join_li1">
-					<div class="join_img">
-						<img src="img/join2.png" alt="">
-					</div>
-					<div class="join_holder">
-						<h3>Better career opportunities</h3>
-						<p>Get the promotion, join your dream company, or strike out on your own. We help you take control of your career.</p>
-					</div>
-				</li>
-				<li class="join_li2">
-					<div class="join_holder">
-						<h3>Stay up-to-date</h3>
-						<p>Front-end frameworks evolve at the speed of light. We keep you speeding right along side them.</p>
-					</div>
-					<div class="join_img">
-						<img src="img/join3.png" alt="">
-					</div>
-				</li>
-				<li class="join_li2">
-					<div class="join_img">
-						<img src="img/join4.png" alt="">
-					</div>
-					<div class="join_holder">
-						<h3>Confidence & expertise</h3>
-						<p>Take the lead and step into the top tiers of programming. You’ll gain expert skills that put you among the best.</p>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class="leader">
-		<div class="leader_in">
-			<h2>Taught by Industry Leaders</h2>
-			<h3>Learn cutting-edge practices from working engineers</h3>
-			<div class="leader_holder">
-				<div class="leader_hin">
-					<a href="javascript:;"><img src="img/human1.jpeg" alt=""></a>
-					<div class="leader_world">
-						<div class="leader_world_box">
-							<a href="javascript:;"><h4>Dan Abramov</h4></a>
-						</div>
-						<div class="leader_about">Working at Facebook on React. Creator of Redux.</div>
-					</div>
-					<div class="leader_hcon"><span>Teaching Redux</span></div>
-				</div>
-				<div class="leader_hin">
-					<a href="javascript:;"><img src="img/human2.png" alt=""></a>
-					<div class="leader_world">
-						<div class="leader_world_box">
-							<a href="javascript:;"><h4>André Staltz</h4></a>
-						</div>
-						<div class="leader_about">Creator of CycleJS and Rx Marbles. Reactive Programming Expert and RxJS Contributor.</div>
-					</div>
-					<div class="leader_hcon"><span>Teaching RxJS</span></div>
-				</div>
-				<div class="leader_hin">
-					<a href="javascript:;"><img src="img/human3.png" alt=""></a>
-					<div class="leader_world">
-						<div class="leader_world_box">
-							<a href="javascript:;"><h4>Kent C. Dodds</h4></a>
-						</div>
-						<div class="leader_about">Open-source contibutor. Host of the JavascriptAir podcast. Engineering at PayPal.</div>
-					</div>
-					<div class="leader_hcon"><span>Teaching JavaScript</span></div>
-				</div>
-				<div class="leader_hin">
-					<a href="javascript:;"><img src="img/human4.jpg" alt=""></a>
-					<div class="leader_world">
-						<div class="leader_world_box">
-							<a href="javascript:;"><h4>Marcy Sutton</h4></a>
-						</div>
-						<div class="leader_about">Senior Front-End Engineer at Deque Systems working on accessibility tools with axe-core.</div>
-					</div>
-					<div class="leader_hcon"><span>Teaching a11y</span></div>
-				</div>
-			</div>
-			<div class="more">
-				<div class="more_in">
-					<div class="more_inner">
-						<a href="javascript:;"><img src="img/Human1.png" alt=""></a>
-					</div>
-					<div class="more_inner">
-						<a href="javascript:;"><img src="img/Human22.png" alt=""></a>
-					</div>
-					<div class="more_inner">
-						<a href="javascript:;"><img src="img/Human33.png" alt=""></a>
-					</div>
-					<div class="more_inner">
-						<a href="javascript:;"><img src="img/Human4.png" alt=""></a>
-					</div>
-					<div class="more_inner">
-						<a href="javascript:;"><img src="img/Human5.png" alt=""></a>
-					</div>
-					<div class="more_inner">
-						<a href="javascript:;"><img src="img/Human6.png" alt=""></a>
-					</div>
-				</div>
-				<div class="more_in_right">
-					<div class="more_right_in">+ 51 More</div>
-					<div class="more_right_in2">
-						<a href="javascript:;">MEET ALL OUR<br>INSTRUCTORS</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<blockquote>
-		<div class="blockquote_in">
-			<div class="blockquote_text_holder">
-				<div class="blockquote_text">Egghead is the best training I’ve seen so far – cutting edge with the latest subjects, frameworks, languages – no bull••••!</div>
-				<div class="blockquote_caption">@Blackendjero</div>
-			</div>
-			<div class="blockquote_ctaholder">
-			<a href="javascript:;">read more<br>success stories</a></div>
-		</div>
-	</blockquote>
-	<div class="dive">
-		<div class="dive_in">
-			<h2>What do you want to learn?</h2>
-			<h4>Start watching hundreds of free video lessons now.</h4>
-			<div class="dive_holder">
-				<input type="text" class="dive_holinp" placeholder="type what you want to learn here...">
-				<button type="button" class="dive_submit">
-					<i class="dive_serch"></i>
-				</button>
-			</div>
-		</div>
-	</div>
-	<footer class="sit_foot">
-		<div class="foot_in">
-			<div class="foot_inner">
-				<ul class="foot_inner_list">
-					<li><a href="javascript:;">Go Pro</a></li>
-					<li><a href="javascript:;">Browse Courses</a></li>
-					<li><a href="javascript:;">Instructors</a></li>
-					<li><a href="javascript:;">Read Success Stories</a></li>
-				</ul>
-				<div class="egghead_copyright">© egghead.io</div>
-				<div class="egghead_terms"><a href="javascript:;">Terms & Conditions</a></div>
-			</div>
-			<div class="search">
-				<h3>Search Lessons</h3>
-				<div class="search_holder">
-					<input type="text">
-				</div>
-				<div class="social">
-					<div class="set">
-						<a href="javascript:;"><img src="img/logo4.png" alt=""></a>
-						<a href="javascript:;"><img src="img/logo5.png" alt=""></a>
-						<a href="javascript:;"><img src="img/logo6.png" alt=""></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+<div class="loading">
+    <div class="spinner"></div>
+</div>
+<div class="page">
+</div>
+<div class="scenes ">
+    <div class="citybg fn-clear">
+        <div id="preScene" class="scene">
+            <div class="tops">
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+            </div>
+            <div class="startTitle title-font">
+                <a href="Resume/index.html" class="resume" title="个人简历" target="_blank">
+                    <h1>
+                    <span>C</span>
+                    <span>l</span>
+                    <span>a</span>
+                    <span>r</span>
+                    <span>e</span>
+                    <span>n</span>
+                    <span>c</span>
+                    <span>e</span>
+                    <span>2</span>
+                    <span>J</span>
+                </h1>
+                </a>
+                <a href="Resume/index.html" target="_blank" class="tel" title="作者简历啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊">｡◕‿◕｡ Design By Lixin</a>
+                <div id="ifscroll">!!o(#￣▽￣)=<span>请让屏幕滚起来吧</span>=O))￣▽￣")o!!</div>
+            </div>
+            <div class="email fn-hide">
+                <a href="Resume/index.html">Mail：onlyskylixin@163.com</a>
+                <a href="Resume/index.html">Tel：176-0163-5133</a>
+                <a class="social-share-element social-github aboutme" href="https://github.com/saucedmeat" target="_blank" title="Follow me on GitHub" style="width: 40px;height: 40px;"></a>
+                <a class="social-share-element social-weibo aboutme" href="http://weibo.com/banananaaaa" target="_blank" title="Follow me on Sina Weibo" style="width: 40px; height: 40px;" ></a>
+            </div>
+        </div>
+        <div id="firstScene" class="scene">
+            <div class="level">
+                <span class="level-font">
+                    Tragedy 1
+                </span>
+            </div>
+            <div class="chapter">
+                <div class="title aboutme">
+                    ME
+                </div>
+                <div class="Galaxian"></div>
+            </div>
+            <div class="form code">
+                <div class="title">
+                    Coder & Designer
+                </div>
+                <div class="coding list fn-clear">
+                    <span class="list-title">
+                        CODING
+                    </span>
+                    <span class="Galaxian-sr"></span>
+                    <span class="Galaxian-sr"></span>
+                    <span class="Galaxian-sr"></span>
+                    <span class="Galaxian-sr"></span>
+                </div>
+                <div class="design list fn-clear">
+                    <span class="list-title">
+                        DESIGN
+                    </span>
+                    <span class="Galaxian-sy"></span>
+                    <span class="Galaxian-sy"></span>
+                </div>
+                <div class="useless list fn-clear">
+                    <span class="list-title">
+                        USELESS IMAGINATION
+                    </span>
+                    <span class="Galaxian-sc"></span>
+                    <span class="Galaxian-sc"></span>
+                    <span class="Galaxian-sc"></span>
+                    <span class="Galaxian-sc"></span>
+                    <span class="Galaxian-sc"></span>
+                </div>
+            </div>
+            <div class="useless-lot">
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+                <div class="Galaxian-sc"></div>
+            </div>
+            <div class="where form">
+                <div class="title">
+                    I Love Beijing!
+                </div>
+                <img src="images/china.png" alt="">
+            </div>
+        </div>
+        <div id="secondScene" class="scene">
+            <div class="level">
+                <span class="level-font">
+                    Tragedy 2
+                </span>
+            </div>
+            <div class="chapter">
+                <div class="title aboutme">
+                    SKILLS
+                </div>
+                <div class="Galaxian">
+                </div>
+            </div>
+            <div class="vform fn-clear frontend">
+                <div class="vtitle">
+                    主要技能
+                </div>
+                <div class="js list fn-clear">
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="list-title">
+                        HTML
+                    </span>
+                </div>
+                <div class="css list fn-clear">
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="list-title">
+                        CSS
+                    </span>
+                </div>
+                <div class="html list fn-clear">
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="list-title">
+                        JAVASCRIPT
+                    </span>
+                </div>
+                <div class="ps list fn-clear">
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="Invader-1"></span>
+                    <span class="list-title">
+                        MORE
+                    </span>
+                </div>
+            </div>
+            <div class="vform fn-clear code">
+                <div class="vtitle">
+                    语言
+                </div>
+                <div class="coding list fn-clear">
+                    <span class="Invader-2"></span>
+                    <span class="Invader-2"></span>
+                    <span class="Invader-2"></span>
+                    <span class="list-title">
+                        javascript
+                    </span>
+                </div>
+                <div class="coding list fn-clear">
+                    <span class="Invader-2"></span>
+                    <span class="Invader-2"></span>
+                    <span class="Invader-2"></span>
+                    <span class="list-title">
+                        PHP
+                    </span>
+                </div>
+                <div class="design list fn-clear">
+                    <span class="Invader-2"></span>
+                    <span class="Invader-2"></span>
+                    <span class="list-title">
+                        C
+                    </span>
+                </div>
+            </div>
+            <div class="vform fn-clear embedded">
+                <div class="vtitle">
+                    接触过
+                </div>
+                <div class="arm list fn-clear">
+                    <span class="Invader-3"></span>
+                    <span class="Invader-3"></span>
+                    <span class="list-title">
+                        Computer Networks
+                    </span>
+                </div>
+                <div class="linux list fn-clear">
+                    <span class="Invader-3"></span>
+                    <span class="Invader-3"></span>
+                    <span class="list-title">
+                        Android
+                    </span>
+                </div>
+                <div class="micro list fn-clear">
+                    <span class="Invader-3"></span>
+                    <span class="Invader-3"></span>
+                    <span class="list-title">
+                        iOS
+                    </span>
+                </div>
+                <div class="pcb list fn-clear">
+                    <span class="Invader-3"></span>
+                    <span class="Invader-3"></span>
+                    <span class="list-title">
+                        Regular Expression
+                    </span>
+                </div>
+            </div>
+            <div class="underground fn-clear">
+            </div>
+        </div>
+        <div id="thirdScene" class="scene">
+            <div class="level">
+                        <span class="level-font">
+                            Tragedy 3
+                        </span>
+            </div>
+            <div class="chapter">
+                <div class="title aboutme">
+                    EXPERIENCE
+                </div>
+                <div class="Galaxian">
+                </div>
+            </div>
+            <div class="fn-clear form alipay-java">
+
+                <div class="board">
+                    <div class="Invader-5"></div>
+                    <a href="http://www.liangsns.com" target="_blank" class="company">立定网 www.liding.me</a>
+                    <div class="times">2016.10-2017.01</div>
+                    <div class="brief">
+                        <p>
+                            负责配合UI设计图，运用`DIV+CSS`完成语义化更强的前端页面，运用`H5`新特性`ﬂex`布局 和对各移动设备和多种手机浏览器`兼容`的处理，运用`ajax`交互完成商品信息发布， 以及登录注册等功能，完成开发了`webApp`。极速研发，快速上线，数据采集也做到了标准化，研发成本大大降低，数据积累增长迅速。
+                        </p>
+                    </div>
+                </div>
+                <div class="position">FRONTEND ENGINEER</div>
+            </div>
+            <div class="fn-clear form alipay-frontend">
+
+                <div class="board">
+                    <div class="Invader-4"></div>
+                    <a href="javascript:;" target="_blank" class="company">Study Hard!!!</a>
+                    <div class="times">2016.07 ~ 2016.11</div>
+                    <div class="brief">
+                        <p>And as frontend engineer in the company I try to participate the interface designing which I
+                            feel interesting and the frontend techs like css3,canvas,
+                            <a href="http://angularjs.org/">AngularJS</a> <a href="javascript:;">ReactJS</a> <a href="javascript:;">Webpack</a> are so fantastic.
+                            In order to improve myself, I attended the training.And that's why I decide to be
+                            a frontend engineer.</p>
+                    </div>
+                </div>
+                <div class="position">FRONTEND ENGINEER</div>
+            </div>
+            <div class="underground fn-clear"></div>
+        </div>
+        <div id="forthScene" class="scene">
+            <div class="level">
+                <span class="level-font">
+                    Tragedy 4
+                </span>
+            </div>
+            <div class="chapter">
+                <div class="title aboutme   ">
+                    PROJECTS
+                </div>
+                <div class="Galaxian">
+                </div>
+            </div>
+            <div class="vtform">
+                <div class="projects fn-clear">
+                    <a class="projects fn-clear" href="Resume/index.html" target="_blank">
+                        <span style="font-family: 微软雅黑">在线简历</span>
+                        <img src="images/resume.png" alt="">
+                    </a>
+                    <a class="projects fn-clear" href="http://www.liangsns.com" target="_blank">
+                        <span style="font-family: 微软雅黑">靓域网</span>
+                        <img src="images/liangyuwang.png" alt="">
+                    </a>
+                    <a class="projects fn-clear" href="https://github.com/saucedmeat" target="_blank">
+                        <span>GITHUB</span>
+                        <img src="images/test3.png" alt="">
+                    </a>
+                </div>
+                <div class="more">WILL BE MORE..</div>
+            </div>
+            <div class="underground fn-clear">
+            </div>
+            <div class="fly">
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+            </div>
+        </div>
+        <div id="endScene" class="fn-right fn-clear">
+            <div class="title-font gameover fn-left">
+                GAME OVER
+            </div>
+            <div class="title-font andover fn-left">
+                AND OVER AGAIN
+            </div>
+        </div>
+        <div id="endpreScene" class="">
+            <div class="tops">
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+                <div class="Galaxian-sc">
+                </div>
+            </div>
+            <div class="startTitle title-font">
+            </div>
+        </div>
+    </div>
+    <div id="tu">
+    </div>
 </div>
 </body>
+
 </html>

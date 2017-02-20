@@ -1,0 +1,330 @@
+<!--
+(｡・`ω´･)
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>(๑•̀ㅁ•́ฅ)李鑫的简历</title>
+    <meta name="description" content="会敲整洁代码的男孩子，普遍长得都很可爱！">
+    <meta name="keywords" content="李鑫,saucedmeat,前端,工作,简历">
+    <link rel="shortcut icon" href="tree.ico">
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <link rel="stylesheet" href="dist/css/fontello.min.css">
+    <script>
+        //更方便您看我的代码
+        //H5时钟
+        window.onload= function () {
+            var oClock=document.querySelector('.clock');
+            var oH=document.querySelector('.hou');
+            var oM=document.querySelector('.min');
+            var oS=document.querySelector('.sec');
+            var N=60;
+            for(var i=0;i<N;i++){
+                var oSpan=document.createElement('span');
+                oSpan.className='scale';
+                oSpan.style.webkitTransform='rotate('+i*6+'deg)';
+                oSpan.style.msTransform='rotate('+i*6+'deg)';
+                if(i%5==0){
+                    oSpan.className='bigscale';
+                    oSpan.innerHTML='<i>'+(i/5||12)+'</i>';
+                    var oI=oSpan.children[0];
+                    oI.style.webkitTransform='rotate('+-i*6+'deg)';
+                    oI.style.msTransform='rotate('+-i*6+'deg)';
+                }
+                oClock.appendChild(oSpan);
+            }
+            clock();
+            setInterval(clock,1000);
+            function clock(){
+                var oDate=new Date();
+                var h=oDate.getHours();
+                var m=oDate.getMinutes();
+                var s=oDate.getSeconds();
+                oH.style.webkitTransform='rotate('+(h*30+m/60*30)+'deg)';
+                oM.style.webkitTransform='rotate('+(m*6+s/60*6)+'deg)';
+                oS.style.webkitTransform='rotate('+s*6+'deg)';
+                oH.style.MsTransform='rotate('+(h*30+m/60*30)+'deg)';
+                oM.style.MsTransform='rotate('+(m*6+s/60*6)+'deg)';
+                oS.style.MsTransform='rotate('+s*6+'deg)';
+            }
+            //transition特效字体
+            var oDiv=document.querySelector('.title-t');
+            var n=0;
+            function tab(n){
+                oDiv.style.background='-webkit-linear-gradient(-45deg,#000 '+n+'%,white '+(n+10)+'%,#000 '+(n+20)+'%)';
+                oDiv.style.background='linear-gradient(-45deg,#000 '+n+'%,white '+(n+10)+'%,#000 '+(n+20)+'%)';
+                oDiv.style.webkitBackgroundClip='text';
+                oDiv.style.backgroundClip='text';
+            }
+            tab(n);
+            setInterval(function () {
+                n++;
+                tab(n%80)
+            },30);
+        }
+    </script>
+</head>
+<body>
+<a href="https://github.com/saucedmeat" target="_blank" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0deg)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<aside>
+    <ul>
+        <li>
+            <a href="https://github.com/saucedmeat/saucedmeat.github.com" target="_blank">源代码</a>
+        </li>
+        <li>
+            <a href="../index.html" target="_blank">HOME</a>
+        </li>
+    </ul>
+</aside>
+<div class="container">
+    <div class="sidebar">
+        <div class="title">
+            <img src="img/head14.png" class="head">
+            <h1 class="title-t">tisst</h1>
+            <h2>"可以通过DEMO来了解我"</h2>
+        </div>
+        <ul class="side-info">
+            <li class="someRight">
+                <dt class="ybshdow"><i class="icon-bookmark"></i>Contact 联系方式</dt>
+                <dd>邮箱: <a href="mailto:onlyskylixin@163.com" target="_blank">onlyskylixin@163.com</a></dd>
+                <dd>电话</i>:<a href="party1/index.html">保密了</a> </dd>
+            </li>
+            <li class="someRight">
+                <dt class="ybshdow"><i class="icon-bookmark"></i>岗位</dt>
+                <dd class="job">前端工程师</dd>
+            </li>
+            <li class="skill">
+                <dt class="ybshdow"><i class="icon-bookmark"></i>自我评价</dt>
+                <dd>
+                    <div class="skill-name">6</div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width: 83%"></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="skill-name">6</div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="skill-name">6</div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="skill-name">6</div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="skill-name">6</div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar" style="width: 90%"></div>
+                    </div>
+                </dd>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <ul class="main-info">
+            <li class="someRight">
+                <dt><i class="icon-bookmark"></i>Basic info</dt>
+                <dd><span>WhoAmI:</span> tisst / 男 </dd>
+                <dd><span>Github:</span> @saucedmeat</dd>
+                <dd><span>首页:</span> <a href="../index.html" target="_blank" class="fs-18">https://saucedmeat.github.io</a></dd>
+            </li>
+            <li>
+                <dt><i class="icon-bookmark"></i>Experience</dt>
+                <h3><a href="../index.html " target="_blank" class="mywebsite">个人首页</a> </h3>
+                <ul class="exp">
+                    <li>
+                        <div class="circle"></div>
+                        <h4>一个赛艇<a href="../index.html" target="_blank" class="rleonardi">戳我</a></h4>
+                        <a href="../index.html" target="_blank" ><img src="img/test2.png"></a>&nbsp;&nbsp;
+                        <a href="../index.html" target="_blank" ><img src="img/test5.png"></a>&nbsp;&nbsp;
+                        <a href="../index.html" target="_blank" ><img src="img/test6.png"></a>&nbsp;&nbsp;
+                        <p>通过信息图设计，动态图设计,用CSS3新特性，利用Sass编写CSS，利用媒体查询，加强了屏幕适配能力。利用jQuery增加特效，通过鼠标滑轮的滚动的方式，进行着类似游戏通关的互动效果，为您带来强烈的设计感和丰富的画面感。</p>
+                    </li>
+                </ul>
+                <ul class="exp">
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            大数医达 http://wap.iyoudoctor.com
+                            <a href="dsyd/page1.html" target="_blank"><i class="icon-link"></i>地址</a>
+                        </h4>
+                        <p>项目介绍：智能化电子医生。</p>
+                        <p>项目职责：结合psd图，高度还原。运用了H5+CSS3，rem布局，flex布局，Zepto，原生js，Swiper插件和媒体查询，加强了对屏幕的适配能力，svg矢量图让页面保持整洁。</p>
+                        <p>项目结果：迅速完成上线。</p>
+                        <img src="img/test14.png">
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            飞腾官网首页 http://www.phytium.com.cn/
+                            <a href="http://www.phytium.com.cn/" target="_blank"><i class="icon-link"></i>地址</a>
+                        </h4>
+                        <p>项目介绍：产品展示首页。</p>
+                        <p>项目职责：配合UI。运用了HTML+CSS，jQuery，原生js，Swiper插件，一个展示企业的首页静态页。</p>
+                        <p>项目结果：充分了展示了企业的核心产品。</p>
+                        <img src="img/test15.png">
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            靓域网 http://www.liangsns.com
+                            <a href="https://www.liangsns.com" target="_blank"><i class="icon-link"></i>地址</a>
+                        </h4>
+                        <p>项目介绍：一个致力于解决本地商业互联网化的转型，共建一个通畅的消费者联盟的app和移动端网站。</p>
+                        <p>项目职责：负责靓域网移动端页面的开发，配合设计图，运用HTML，CSS，Photoshop，jQuery，Swiper插件，正则表单验证等技术并结合弹性布局和媒体查询，加强了对屏幕的适配能力，完成了移动端和app端界面。</p>
+                        <p>项目结果：极速研发，快速上线，数据采集也做到了标准化，研发成本大大降低，数据积累增长迅速。靓域网在本地商业产品线中开始推广。运营期间不断完善。</p>
+                        <img src="img/test13.png">
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            "ZQuery"
+                            <a href="https://github.com/saucedmeat/ZQuery" target="_blank"><i class="icon-link"></i>Github</a>
+                        </h4>
+                        <p>使用面向对象的方法类似jQuery编写的库</p>
+                        <img src="img/test12.png">
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            Vue购物车
+                            <a href="https://github.com/saucedmeat/saucedmeat.github.com/tree/master/Resume/shopping-cart" target="_blank"><i class="icon-link"></i>Github</a>
+                            <a href="shopping-cart/gwc.html" target="_blank"><i class="icon-link"></i>Gallery</a>
+                        </h4>
+                        <p>基于Vue开发的商品选择。基于webpack，可以实现多个商品切换和价格改变，和购物车内增加数量、删除等。</p>
+                        <img src="img/test16.png">
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            React画廊
+                            <a href="https://github.com/saucedmeat/Gallery-by-react" target="_blank"><i class="icon-link"></i>Github</a>
+                            <a href="Gallery-by-react/dist/index.html" target="_blank"><i class="icon-link"></i>Gallery</a>
+                        </h4>
+                        <p>使用ReactJS构架的图片画廊应用</p>
+                        <img src="img/test10.png">
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            3D捕鱼达人
+                            <a href="https://github.com/saucedmeat/Gallery-by-react" target="_blank"><i class="icon-link"></i>Github</a>
+                            <a href="Fish/demo.html" target="_blank"><i class="icon-link"></i>fish</a>
+                        </h4>
+                        <p>运用CSS3，js，canvas，开发的捕鱼达人H5小游戏。</p>
+                        <img src="img/test11.png">
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            Ooouuu音乐播放器
+                            <a href="https://github.com/saucedmeat/Ouuuplayer" target="_blank"><i class="icon-link"></i>Github</a>
+                            <a href="OoouuuPlayer/demo/index.html" target="_blank"><i class="icon-link"></i>Player</a>
+                        </h4>
+                        <p>有爱的H5音乐播放器</p>
+                        <img src="img/musicplayer.jpg">
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            3D轮播图插件
+                            <a href="https://github.com/saucedmeat/jQ-Carousel-figure" target="_blank"><i class="icon-link"></i>Github</a>
+                            <a href="jQ-Carousel-figure/demo/index.html" target="_blank"><i class="icon-link"></i>jCarrousel</a>
+                        </h4>
+                        <p>一个3D轮播图 jQuery 插件，实现了3D轮播效果，可以自适应宽度、自适应图片数量，有方便的切换按钮，另外实现了播放、停止、切换到任意一张图片的API</p>
+                        <img src="img/jCarrousel.jpg">
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>很多原生javascript  demo
+                            <a href="https://github.com/saucedmeat/personal-demo" target="_blank"><i class="icon-link"></i>Github</a>
+                            <a href="clock.html" target="_blank"><i class="icon-link"></i>Clock</a>
+                        </h4>
+                        <div class="CL">
+                            <div class="clock">
+                                <div class="hou"></div>
+                                <div class="min"></div>
+                                <div class="sec"></div>
+                                <div class="cap"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>
+                            好多网站
+                            <a href="https://github.com/saucedmeat/personal-demo" target="_blank"><i class="icon-link"></i>Github</a>
+                            <a href="iQiyi/index.html" target="_blank"><i class="icon-link"></i>爱奇艺</a>
+                        </h4>
+                        <p>做了很多很多网站的首页</p>
+                        <img src="img/test7.png">&nbsp;&nbsp;
+                        <img src="img/test8.png">&nbsp;&nbsp;
+                        <img src="img/test9.png">&nbsp;&nbsp;
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <dt><i class="icon-bookmark"></i>擅长技术</dt>
+                <ul class="exp">
+                    <li>
+                        <div class="circle"></div>
+                        <h4>(・ˍ・*)</h4>
+                        <p></p>
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>（p・_q）</h4>
+                        <p></p>
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>(￣ε￣；)</h4>
+                        <p></p>
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>｡◕‿◕｡</h4>
+                        <p></p>
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>(｡・`ω´･)</h4>
+                        <p></p>
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4><(▰˘◡˘▰)></h4>
+                        <p></p>
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <h4>(｡･ω･)ﾉﾞ</h4>
+                        <p></p>
+                    </li>
+                </ul>
+                <h3>其他</h3>
+                <ul class="exp">
+                    <li>
+                        <div class="circle"></div>
+                        <h4>我</h4>
+                        <p>有意思</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<footer>
+    <p>Made with <a href="swiper/phone.html"> <i class="icon-heart throb" style="color: #d43f57;"></i></a> by saucedmeat. 最后更新于2016年11月20日</p>
+</footer>
+</body>
+</html>

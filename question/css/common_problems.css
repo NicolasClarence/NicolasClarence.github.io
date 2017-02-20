@@ -1,0 +1,157 @@
+*{
+margin:0;
+padding: 0;
+list-style: none;
+font-family: "微软雅黑";
+}
+a{
+color: #333;
+text-decoration: none;
+}
+.header{
+width: 100%;
+height: 478px;
+position: relative;
+text-align: center;
+line-height: 160px;
+font-size: 40px;
+font-weight: 500;
+background: url(../images/ewfdf.jpg) repeat 100% 100%;
+}
+/* .header img{
+display: block;
+position: absolute;
+left:15%;
+top:0;
+}*/
+.container{
+width: 100%;
+max-width: 930px;
+margin: 0 auto;
+height:100%;
+margin-top: 70px;
+}
+.tabs{
+float: left;
+}
+.tabs{
+width: 25%;
+background:#FAFAFA;
+}
+.tabs li{
+line-height: 49px;
+padding-left: 15%;
+}
+.tab_container{
+float: right;
+width: 72%;
+height:auto !important;
+height:700px;
+min-height:700px; 
+}
+.show{
+display: block;
+}
+.hide{
+display: none;
+}
+.active{
+background:#F3F3F3;
+border-left:2px #FF4A00 solid;
+}
+.container p{
+line-height: 20px;
+color: #333;
+font-size: 14px;
+}
+.tab_container h2{
+line-height: 50px;
+font-weight: normal;
+font-size: 20px;
+border-bottom: 1px solid #DFDFDF;
+
+}
+#tab1 h2{
+    text-indent:1em;
+    color:#fff;
+   background: url(../images/3.jpg); 
+}
+#a h2{
+    text-indent:1em;
+    color:#fff;
+    background: url(../images/1.jpg);
+}
+#b h2{
+    text-indent:1em;
+    color:#fff;
+    background: url(../images/2.jpg);
+}
+#c h2{
+    text-indent:1em;
+    color:#fff;
+    background: url(../images/4.jpg);
+}
+#tab1 div{
+    margin-top: 25px;
+}
+#tab1 span{
+    padding-bottom: 8px;
+    display: block;
+}
+#tab1 img{
+    margin-top: 13px;
+    margin-left: 25px;
+}
+#tab1 em{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#tab1 p{
+    text-indent:2em;
+}
+#a div{
+    margin-top: 25px;
+}
+#a span{
+    padding-bottom: 8px;
+    display: block;
+}
+#a img{
+    margin-top: 13px;
+    margin-left: 25px;
+}
+#a p{
+    text-indent:2em;
+}
+#b div{
+    margin-top: 25px;
+}
+#b span{
+    padding-bottom: 8px;
+    display: block;
+}
+#b em{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#b p{
+    text-indent:2em;
+}
+#c div{
+    margin-top: 25px;
+}
+#c span{
+    padding-bottom: 8px;
+    padding-top: 10px;
+    display: block;
+}
+#c em{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#c p{
+    text-indent:2em;
+}

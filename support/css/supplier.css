@@ -1,0 +1,209 @@
+/*公共属性*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:0;
+}
+.main{clear:both;}
+a{
+   text-decoration:none;
+}
+a:link{
+	color:#333;
+}
+a:hover{
+	color:#333;
+}
+a:active{
+	color:#333;
+	}
+a:visited{
+	color:#333;
+}
+body{
+	font-size:12px;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.cl{
+	clear:both;
+}
+.mb10{
+	height:10px;
+	clear:both;
+}
+.mb5{
+	height:5px;
+	clear:both;
+}
+/*页面主题*/
+.main{
+	width:100%;
+    height:auto;
+	
+}
+/*主题上部*/
+.top{
+    width:100%;
+	height:478px;
+	/*background-size:cover;*/
+	margin:0 auto;
+	background:#ed645e;
+	display: block;
+}
+.top div,.top div img{
+	width: 1200px;
+	height: 478px;
+	margin: 0 auto;
+	display: block;
+}
+.toplbox{
+    padding-left: 280px;
+    float: left;
+}
+.toplbox h1{
+     color: #FC7D88;
+     font-size: 50px;
+     padding-top: 160px;
+}
+.toplbox p{
+	color: #FC7D88;
+	font-size: 15px;
+    padding-top: 15px;
+}
+.toplbox img{
+    padding-top: 50px;
+}
+/*.toprbox img{
+	float: right;
+    margin-top: -290px;
+    width: 55%;
+}*/
+.toprbox{
+	width:915px;
+	height:516px;
+	float: left;
+	padding-left: 100px;
+}
+.apply{
+	width:100%;
+	height:450px;
+	margin-top: 50px
+}
+.apply .applytitle{
+	text-align: center;
+	/*margin-top: 160px;*/
+	font-size: 40px;
+}
+.applyimg{
+     width:1200px;
+     height:330px;
+     margin: 70px auto;
+}
+.applyimg{
+	width: 1200px;
+}
+.step{
+	width:300px;
+	display: inline;
+    height:auto;
+    float: left;
+}
+.step h3{
+	font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.step img{
+    margin: 0 auto;
+    display: block;
+}
+.steps{
+	margin-top: 20px;
+	margin-left:110px;
+}
+.steps p{
+	font-size: 15px;
+}
+.information{
+	width:100%;
+	height:430px;
+	background:#F8F8F8;
+}
+.information h3{
+	text-align: center;
+	font-size: 35px;
+	line-height: 150px
+}
+.informationh{
+	margin-top: 25px;
+}
+.informations{
+	width: 1200px;
+	height:185px;
+	/*margin-top: 45px;*/
+	margin: 0 auto;
+}
+.informations ul{
+	float:left;
+
+}
+.informations input{
+	width:309px;
+	height:32px;
+	border:1px solid #272822;
+}
+
+.informations span{
+	font-size: 20px;
+}
+.informations li{
+	line-height: 45px;
+}
+
+.informationsl,.informationsr{
+	width: 50%;
+    height:200px;
+}
+.informationbox{
+	width:1200px;
+	margin:0 auto;
+}
+.informationbox img{
+	display: block;
+	float: right;
+	display: inline;
+	margin-right: 150px;
+}
+.informationsl li,.informationsr li {clear: both;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	}
+.informationsl li span,.informationsr li span{
+	display: block;
+	width: 100px;
+	margin-right: 10px;
+	float: left;
+	display: inline;
+	text-align: right;
+}
+.informationsl li span{
+	margin-left: 120px;
+}
+.informationsr li span{
+	margin-left: 20px;
+}
+.informationsl input,.informationsr input{
+	display: block;
+	float: left;
+	display: inline;
+	height: 34px;
+	margin-top: 8px;
+}
